@@ -25,7 +25,7 @@ map = (function () {
   const mb_factor = 1.0 / (1024 * 1024);
   var zoomRender = 2;
   const min_zoomRender = 1;
-  const max_zoomRender = 8; // if you need more, fork this repo and use your own api key!
+  const max_zoomRender = 64; // if you need more, fork this repo and use your own api key!
   
   var renderName = {name: 'render'};
   
